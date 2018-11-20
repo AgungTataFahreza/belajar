@@ -1,9 +1,12 @@
 <?php
+	//aku buat perubahan disini
+	//coba temukan aku
 	include 'koneksi.php';
 	$query="SELECT * FROM provinsi";
 	$query1="SELECT * FROM kota";
 	$result=mysqli_query($conn,$query);
 	$result1=mysqli_query($conn,$query1);
+	//coba temukan aku lagi
 ?>
 <!DOCTYPE html>
 <html>
